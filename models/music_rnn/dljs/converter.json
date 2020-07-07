@@ -1,0 +1,7 @@
+{
+  "type": "DrumsOneHotConverter",
+  "args": {
+    "pitchClasses": null,
+    "numSteps": null
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "fully_connected/biases": {
+    "filename": "fully_connected_biases", 
+    "shape": [
+      512
+    ]
+  }, 
+  "fully_connected/weights": {
+    "filename": "fully_connected_weights", 
+    "shape": [
+      256, 
+      512
+    ]
+  }, 
+  "rnn/attention_cell_wrapper/attention/attn_v": {
+    "filename": "rnn_attention_cell_wrapper_attention_attn_v", 
+    "shape": [
+      256
+    ]
+  }, 
+  "rnn/attention_cell_wrapper/attention/attn_w": {
+    "filename": "rnn_attention_cell_wrapper_attention_attn_w", 
+    "shape": [
+      1, 
+      1, 
+      256, 
+      256
+    ]
+  }, 
+  "rnn/attention_cell_wrapper/attention/bias": {
+    "filename": "rnn_attention_cell_wrapper_attention_bias", 
+    "shape": [
+      256
+    ]
+  }, 
+  "rnn/attention_cell_wrapper/attention/kernel": {
+    "filename": "rnn_attention_cell_wrapper_attention_kernel", 
+    "shape": [
+      1536, 
+      256
+    ]
+  }, 
+  "rnn/attention_cell_wrapper/attention_output_projection/bias": {
+    "filename": "rnn_attention_cell_wrapper_attention_output_projection_bias", 
+    "shape": [
+      256
+    ]
+  }, 
+  "rnn/attention_cell_wrapper/attention_output_projection/kernel": {
+    "filename": "rnn_attention_cell_wrapper_attention_output_projection_kernel", 
+    "shape": [
+      512, 
+      256
+    ]
+  }, 
+  "rnn/attention_cell_wrapper/bias": {
+    "filename": "rnn_attention_cell_wrapper_bias", 
+    "shape": [
+      518
+    ]
+  }, 
+  "rnn/attention_cell_wrapper/kernel": {
+    "filename": "rnn_attention_cell_wrapper_kernel", 
+    "shape": [
+      774, 
+      518
+    ]
+  }, 
+  "rnn/attention_cell_wrapper/multi_rnn_cell/cell_0/basic_lstm_cell/bias": {
+    "filename": "rnn_attention_cell_wrapper_multi_rnn_cell_cell_0_basic_lstm_cell_bias", 
+    "shape": [
+      1024
+    ]
+  }, 
+  "rnn/attention_cell_wrapper/multi_rnn_cell/cell_0/basic_lstm_cell/kernel": {
+    "filename": "rnn_attention_cell_wrapper_multi_rnn_cell_cell_0_basic_lstm_cell_kernel", 
+    "shape": [
+      774, 
+      1024
+    ]
+  }, 
+  "rnn/attention_cell_wrapper/multi_rnn_cell/cell_1/basic_lstm_cell/bias": {
+    "filename": "rnn_attention_cell_wrapper_multi_rnn_cell_cell_1_basic_lstm_cell_bias", 
+    "shape": [
+      1024
+    ]
+  }, 
+  "rnn/attention_cell_wrapper/multi_rnn_cell/cell_1/basic_lstm_cell/kernel": {
+    "filename": "rnn_attention_cell_wrapper_multi_rnn_cell_cell_1_basic_lstm_cell_kernel", 
+    "shape": [
+      512, 
+      1024
+    ]
+  }, 
+  "rnn/attention_cell_wrapper/multi_rnn_cell/cell_2/basic_lstm_cell/bias": {
+    "filename": "rnn_attention_cell_wrapper_multi_rnn_cell_cell_2_basic_lstm_cell_bias", 
+    "shape": [
+      1024
+    ]
+  }, 
+  "rnn/attention_cell_wrapper/multi_rnn_cell/cell_2/basic_lstm_cell/kernel": {
+    "filename": "rnn_attention_cell_wrapper_multi_rnn_cell_cell_2_basic_lstm_cell_kernel", 
+    "shape": [
+      512, 
+      1024
+    ]
+  }
+}
